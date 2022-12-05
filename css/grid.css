@@ -6,10 +6,9 @@
     grid-template-areas: 
     "header header"
     "content content"
-    "footer footer"
     ;
     justify-self: auto;
-    background: fixed rgb(255, 255, 255);
+    background: fixed rgb(99, 155, 177);
     border: solid black 0.2em;
     border-radius: 15px;
 }
@@ -18,7 +17,7 @@
     background: fixed rgb(48, 90, 138);
     border: solid 0.2em rgb(71, 128, 194);
     border-radius: 15px;
-    bottom: 35px;
+    bottom: 85px;
     right: 15px;
     padding: 28px 15px;
     margin: auto;
@@ -26,13 +25,15 @@
 }
 .footer {
     grid-area: footer;
-    background-color: aquamarine;
+    background-color: rgb(61, 84, 90);
     border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    padding: 10px;
 }
 .header {
     grid-area: header;
     border-radius: 15px 15px 0px 0px;
-    background-color: blueviolet;
+    background-color: rgb(61, 84, 90);
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -42,12 +43,13 @@
 }
 .content {
     grid-area: content;
-    background-color: coral;
+    background-color: rgb(61, 84, 90);
     padding: 10px;
     justify-content: space-evenly;
+    border-radius: 0px 0px 15px 15px;
 }
 .sidebar {
-    display: inline-flex;
+    display: none; /* inline-flex */
     justify-content: space-evenly;
     grid-area: sidebar;
     position: fixed;
