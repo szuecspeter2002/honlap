@@ -1,0 +1,53 @@
+body {
+    background: fixed linear-gradient(0deg, rgb(75, 75, 75), rgb(184, 184, 184));
+    margin: 10px 5% 10px 5%;
+}
+.sidebutton {
+    background: fixed rgb(70, 70, 70);
+    margin: 10px;
+    max-height: 35px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    border: solid 0.2em rgb(107, 107, 107);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.para {
+    background: fixed rgb(75, 75, 75);
+    border: solid rgb(255, 0, 0) 0.25em;
+    border-radius: 15px;
+    margin: 1em;
+    padding: 15px;
+}
+.headertext {
+    grid-area: text;
+    text-align: left;
+    background: none;
+    margin: 10px;
+}
+.profile {
+    display: flexbox;
+    max-width: 250px;
+    margin: 15px;
+    border: solid 0.5em;
+    border-radius: 15px;
+}
+.profpic {
+    grid-area: pict;
+    background: none;
+}
+.navbar {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    margin: 0 auto;
+    background: fixed black;
+    border: solid grey 5px;
+}
+.button {
+    background: fixed rgb(107, 107, 107);
+    margin: 15px;
+}
